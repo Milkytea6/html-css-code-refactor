@@ -33,7 +33,9 @@
     <main>
         <!-- Changed div element to a semantic section element for each section here.
              Also added an id tag to the first child so the nav link will direct the user to the page.  -->
-        <section id="search-engine-optimization" class="search-engine-optimization">
+
+             <!-- Removed the class tag from each section since I changed the CSS to element selectors. -->
+        <section id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -42,7 +44,7 @@
                 your visibility and find the right customers for your business.
             </p>
         </section>
-        <section id="online-reputation-management" class="online-reputation-management">
+        <section id="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
@@ -51,7 +53,7 @@
                 you the control over what potential customers see when they search for your business.
             </p>
         </section>
-        <section id="social-media-marketing" class="social-media-marketing">
+        <section id="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -61,8 +63,11 @@
             </p>
         </section>
     </main>
+    <!-- Changed div element to an aside element since this content is displayed out of the normal flow of the webpage. -->
     <aside class="benefits">
-        <section class="benefit-lead">
+        <!-- Changed div to section elements. -->
+        <!-- Removed the class tag from each section since I changed the CSS to element selectors. -->
+        <section>
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
             <p>
@@ -70,7 +75,7 @@
                 to your website.
             </p>
         </section>
-        <section class="benefit-brand">
+        <section >
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" />
             <p>
@@ -78,7 +83,7 @@
                 for your business.
             </p>
         </section>
-        <section class="benefit-cost">
+        <section>
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png"></img>
             <p>
@@ -87,12 +92,14 @@
             </p>
         </section>
     </aside>
-    <div class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
+    <!-- Changed the div with a class of footer to just a footer element. -->
+    <footer>
+        <!-- Changed the h2 element an h4 since h1-h3 is already used above. -->
+        <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2023 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
